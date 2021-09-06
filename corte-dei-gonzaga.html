@@ -1,0 +1,548 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>*|MC:SUBJECT|*</title>
+
+    <!--codice google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+    <!--codice font awesome-->
+    <script src="https://kit.fontawesome.com/3542490158.js" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+
+        body {
+            padding: 0;
+            margin: 0 auto;
+            max-width: 600px; 
+            background: #f4f4f4;
+            font-family: montserrat, sans-serif;
+        }
+
+        /*---formattazione-----*/
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1em;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 12px;
+            line-height: 1.5em;
+        }
+    
+        .body-container {
+            background: #fff;
+            padding: 0;
+            box-shadow: 0 0 30px #d6d6d6;
+            border-radius: 10px;
+        }
+    
+        .preheader {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background: #f4f4f4;
+        }
+
+        .preheader p {
+            font-size: 10px;
+            color: #666;
+        }
+
+        .preheader p a {
+            font-size: 10px;
+            color: #666;
+        }
+    
+        header {
+            padding: 10px 0;
+        }
+    
+        #section-01 {
+            background: #ead4bd;
+        }
+    
+        #section-01 > .container {
+            background-image: url(https://mcusercontent.com/b2b59a55e9fa4975c0ddab11b/images/98fac208-b6d1-c94d-025d-1ba07e4ca06d.png);
+            background-position: right;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    
+        #section-01 > .container > .content {
+            padding: 100px 35% 100px 5%;
+        }
+    
+        #section-02 {
+            background: #f7f1eb;
+        }
+
+        #section-02 > .container {
+            display: grid;
+           grid-template-columns: 1fr 0.75fr;
+        }
+
+        #section-02 > .container > .column-left {
+            background-image: url(https://mcusercontent.com/b2b59a55e9fa4975c0ddab11b/images/9d8962e5-d66a-fa98-7287-a00649f6d6ba.jpg);
+            background-position: left;
+            background-size: cover;
+            background-repeat: no-repeat;
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+    
+        #section-02 > .container > .column-right {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            padding: 100px 10% 100px 10%;
+        }
+
+        #section-03 {
+            background: #ead4bd;
+        }
+
+        #section-03 > .container {
+            display: grid;
+            grid-template-columns: 1fr 0.75fr;
+        }
+        
+        #section-03 > .container > .column-right {
+            background-image: url(https://mcusercontent.com/b2b59a55e9fa4975c0ddab11b/images/b141d925-5c6a-dc1a-2c49-08cceb586fc9.jpg);
+            background-position: center top;
+            background-size: cover;
+            background-repeat: no-repeat;
+            grid-column-start: 2;
+            grid-column-end: 3;
+        }
+    
+        #section-03 > .container > .column-left {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            padding: 100px 10% 100px 10%;
+        }
+
+        .palette {
+            display: flex;
+        }
+
+        .mobile-palette {
+            display: none;
+        }
+
+        .single-color {
+            margin-top: 20px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50px;
+            margin-right: 10px;
+            
+        }
+
+        .single-color:hover {
+            transform: scale(130%);
+            transition: linear 0.2s;
+        }
+
+        .color-01 {
+            background: #875c4b; 
+        }
+       
+        .color-02 {
+            background: #ad8567;
+        }
+
+        .color-03 {
+            background: #c8a58f;
+        }
+
+        .color-04 {
+            background: #ece5d3;
+        }
+
+        .color-05 {
+            background: #dbbfb1;
+        }
+
+        .color-06 {
+            background: #e54a52;
+        }
+
+        #section-04 {
+            background: #f7f1eb;
+        }
+
+        #section-04 > .container > .content {
+            padding: 0 5% 0 57%;
+            transform: translateY(-370px);
+            margin-bottom: -50px;
+        }
+
+        .button-cta {
+            background: #000;
+            float: left;
+            padding: 10px 15px;
+            transition: linear 0.2s;
+        }
+
+        .button-cta:hover {
+            transform: scale(110%);
+            transition: linear 0.2s;
+        }
+
+        a.cta-link {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+
+        h3.cta-title {
+            line-height: 0.5em;
+        }
+
+        img.cta-image {
+            transform: translateY(-70px);
+            margin-bottom: -72px;
+        }
+
+        footer {
+            z-index: 999;
+            margin-bottom: 20px;
+        }
+
+        .social-bar {
+            background: #333;
+            padding: 20px 10px;
+            box-sizing: border-box;
+            color: #f4f4f4;
+            font-size: 11px;
+            border-end-end-radius: 10px;
+            border-end-start-radius: 10px;
+        }
+        
+        .link-list-footer {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .social-link {
+            text-decoration: none;
+            color: #f4f4f4;
+        }
+        
+
+        .footer-content {
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .utility-link {
+            font-size: 9px;
+            text-decoration: underline;
+            color: #333;
+        }
+
+        .unsubscribe-line {
+            font-size: 9px;
+            color: #333;
+        }
+
+        i.fab,
+        i.fas {
+            margin-right: 5px;
+        }
+
+
+        /* ------ STILI SMARTPHONE -------- */
+
+        @media (max-width: 580px) {
+            
+            body {
+                width: 100%;
+                max-width: 100% !important;
+            }
+
+            .preheader p {
+            font-size: 8px;
+            }
+
+            .preheader p a {
+                font-size: 8px;
+            }
+
+            h1 {
+            font-size: 30px;
+            }
+
+            h3 {
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 11px;
+                
+            }
+
+            #section-02 > .container, 
+            #section-03 > .container {
+            grid-template-columns: 1fr 1fr;
+            }
+
+            .palette {
+                display: none;
+            }
+
+            .mobile-palette {
+                display: flex;
+            }
+
+             .second-row {
+                margin-top: -10px !important;
+            }
+
+            .single-color {
+                height: 30px;
+                width: 30px;
+            }
+
+            #section-04 > .container > .content {
+                padding: 0 5% 0 50%;
+                transform: translateY(-300px) ;
+                margin-bottom: -50px;
+            }
+
+            .button-cta:hover {
+                transform: scale(110%);
+                transition: linear 0.2s;
+            }
+
+            a.cta-link {
+                font-size: 12px;
+            }
+
+            h3.cta-title {
+                font-size: 16px;
+            }
+
+            img.cta-image {
+                transform: translateY(-10px);
+                margin-bottom: -10px;
+            }
+
+            #section-01 > .container > .content {
+            padding: 50px 50% 50px 5% !important;
+            }
+
+            #section-02 > .container > .column-right,
+            #section-03 > .container > .column-left {
+                padding: 50px 10%;
+            }
+
+            .link-list-footer {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .social-link {
+                text-decoration: none;
+                color: #f4f4f4;
+            }
+
+
+        }
+
+        @media (max-width: 550px) {
+
+            #section-04 > .container > .content {
+                padding: 0 5% 0 50%;
+                transform: translateY(-330px) ;
+                margin-bottom: -50px;
+            }
+
+            .hide-on-mobile {
+                display: none;
+            }
+
+            .social-link:nth-child(1),
+            .social-link:nth-child(2) {
+                flex-basis: 200px;
+                
+            }
+
+            a.social-link:nth-child(1) {
+                text-align: right;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+
+            #section-04 > .container > .content {
+                padding: 0 5% 0 50%;
+                transform: translateY(-300px) ;
+                margin-bottom: -50px;
+            }
+        }
+
+        @media (max-width: 400px) {
+
+            #section-04 > .container > .content {
+                padding: 0 5% 0 50%;
+                transform: translateY(-250px) ;
+                margin-bottom: -50px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+    <div class="preheader" >
+        <div class="column-left">
+            <p>Hai problemi a visualizzare i contenuti della newsletter?</p>
+        </div>
+        <div class="column-left">
+            <p style="text-align: right;">
+                <a href="*|ARCHIVE|*" target="_blank" style="text-align:right;">
+                    Apri nel browser.
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="body-container">
+        
+        <header style="text-align: center;">
+            <div class="logo">
+                <img src="https://mcusercontent.com/b2b59a55e9fa4975c0ddab11b/images/4967872d-2fd8-1954-79fd-c64945f8cb3b.png" alt="corte-dei-gonzaga-logo" style="max-width: 250px; margin: auto;">
+            </div>
+        </header>
+        <section id="section-01" class="section">
+            <div class="container">
+                <div class="content">
+                    <h3>A/I 2021</h3>
+                    <h1 style="margin: 5px 0;">
+                        Nuova collezione
+                    </h1>
+                    <p>Viviamo in un mondo senza tempo e senza regole, tutto ciò che possiamo fare è scegliere l’eleganza.</p>
+                    <p><strong>Scopri la nuova collezione Corte dei Gonzaga 2021.</strong> </p>
+                </div>
+            </div>
+        </section>
+        <section id="section-02" class="section">
+            <div class="container">
+                <div class="column-left">
+                    <div style="min-width: 30%;"></div>
+                </div>
+                <div class="content column-right">
+                    <h3>A/I 2021</h3>
+                    <h1 style="margin: 5px 0;">
+                        i trend
+                    </h1>
+                    <p>Una collection ispirata alla natura, fatta di linee morbide e tessuti scozzesi. Gli abiti sono pensati per compiacere animi nostalgici e perfetti per ogni tipo di donna. </p>
+                </div>
+            </div>
+        </section>
+        <section id="section-03" class="section">
+            <div class="container">
+                <div class="column-left">
+                    <h3>A/I 2021</h3>
+                    <h1 style="margin: 5px 0;">
+                        colori
+                    </h1>
+                    <p>Le tendenze oscillano in modo spontaneo dalle tonalità dell’autunno alle cromie black & white. Una combinazione di colori che dà vita a una nuova collezione minimal e audace.</p>
+                    <div class="palette">
+                        <div class="single-color color-01"></div>
+                        <div class="single-color color-02"></div>
+                        <div class="single-color color-03"></div>
+                        <div class="single-color color-04"></div>
+                        <div class="single-color color-05"></div>
+                        <div class="single-color color-06"></div>
+                    </div>
+                    <div class="mobile-palette">
+                        <div class="single-color color-01"></div>
+                        <div class="single-color color-02"></div>
+                        <div class="single-color color-03"></div>
+                    </div>
+                    <div class="mobile-palette second-row">
+                        <div class="single-color color-04"></div>
+                        <div class="single-color color-05"></div>
+                        <div class="single-color color-06"></div>
+                    </div>
+                </div>
+                
+                <div class="column-right">
+                    <div style="min-width: 30%;"></div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="section-04" class="section">
+            <img class="cta-image" src="https://mcusercontent.com/b2b59a55e9fa4975c0ddab11b/images/5ec6a0de-d143-01b7-5a14-d73a40347faf.png" alt="" style="width: 100%;">
+            <div class="container">
+                <div class="content">
+                    <h3 class="cta-title">Cosa aspetti?</h3>
+                    <a class="cta-link" href="https://www.cortedeigonzaga.it/" target="_blank">
+                        <div class="button-cta">
+                            Scopri di più
+                        </div>
+                    </a>   
+                    
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-bar">
+                <div class="link-list-footer">
+                    <a href="*https://www.instagram.com/cortedeigonzaga_it/" class="social-link" target="_blank"><i class="fab fa-instagram"></i> Seguici su Instagram</a>
+                &nbsp; | &nbsp; 
+                <a href="https://www.facebook.com/CorteDeiGonzaga" class="social-link" target="_blank"><i class="fab fa-facebook-square"></i> Seguici su Facebook</a>
+                <span class="hide-on-mobile">&nbsp; | &nbsp;</span>
+                <a href="*|FORWARD|*" class="social-link"><i class="fas fa-share"></i> Inoltra ad un amico!</a>
+                </div>
+            </div>
+          </div>    
+           
+        </footer>
+    </div>
+    <div class="footer-content">
+        *|IF:LIST|*
+        <p>Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</p>
+        <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+        *|LIST:DESCRIPTION|*
+        <p>
+        <strong>Our mailing address is:</strong> *|HTML:LIST_ADDRESS_HTML|*
+        </P>
+        <!-- *|END:IF|* -->
+        *|ELSE:|*
+        <!-- *|IFNOT:ARCHIVE_PAGE|* -->
+        <p>Copyright &copy; *|CURRENT_YEAR|* *|USER:COMPANY|*, All rights reserved.</p>
+        *|END:IF|*
+        <p class="unsubscribe-line">
+            Non vuoi più ricevere e-mail di questo tipo?
+            <a href="*|UNSUB|*" class="utility-link">Disiscriviti da questa newsletter</a>
+        </p>
+
+    </div>
+   
+  
+
+  
+</body>
+</html>
